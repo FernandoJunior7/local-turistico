@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Open sans', sans-serif;
+
+  background-color: #f5f4f0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #0c51a7;
+}
+
+#app {
+  max-width: 1120px;
+  padding: 8rem;
+}
+
+.location-header,
+.location-image-description {
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+.subtitle {
+  color: #e1624f;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.location-image-description {
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
+}
+
+.divider {
+  border: 1px solid #d9d9d9;
+}
+
+main:first-child .divider {
+  margin-bottom: 6.4rem;
+}
+
+main:last-child .divider {
+  margin-bottom: 4rem;
+}
+
+.trip-suggestion {
+  margin-bottom: 4rem;
+}
+
+.trip-suggestion img {
+  max-height: 350px;
+}
+
+h3 {
+  font-size: 2.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.list-title {
+  margin-top: 1.6rem;
+}
+
+.trip-suggestions-list .trip-suggestion:last-child li:first-child a {
+  color: #591b98;
+}
+
+.trip-suggestions-list .trip-suggestion:last-child li:nth-child(2) a {
+  color: #e5245e;
+}
+
+.trip-suggestions-list .trip-suggestion:last-child li:last-child a {
+  color: #e95e10;
+}
+
+main > p {
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+footer {
+  text-align: center;
+}
